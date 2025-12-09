@@ -1,0 +1,25 @@
+LastName = input("Имя:")
+Name = input("Фамилия:")
+Name2 = input("Отчество:")
+print("Здраствуйте",LastName, Name, Name2)
+Nomer_card = "100"
+User_intNom = input("Номер карты:")
+if Nomer_card == User_intNom:
+    Balance_user1 = 1000
+    Balance_user2 = 0
+    Bank = 0
+    Com1 = input("Введите команду")
+    if Com1 == "Снять":
+        Sum = int(input("Сумма для снятия:"))
+        print(Balance_user1 - Sum)
+        Bank + Sum
+    elif Com1 == "Положить":
+        Sum1 = int(input("Сумма для ввода:")) 
+        print(Balance_user1 + Sum1)  
+    elif Com1 == "Перевести":
+        Sum2 = int(input("Сумма для перевода"))
+        print(Balance_user1 - Sum2)
+        Balance_user2 + Sum2    
+    else:
+        
+        print("Досвидания")
